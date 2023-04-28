@@ -1,0 +1,33 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(125, 47, 47); */
+    justify-content: center;
+    column-gap: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .cont{
+    align-items: center;
+    flex-direction: column;
+}
+}
+.info{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body{
+    height: 100vh;
+    background-color:  rgb(103, 212, 217);
+}
+.footer{
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(201, 198, 222);
+    color: rgb(188, 34, 34);
+    text-align: center;
+}
